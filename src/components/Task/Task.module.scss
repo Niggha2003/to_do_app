@@ -1,0 +1,35 @@
+.wrapper {
+    display: flex;
+    width: 600px;
+    padding: 8px 0;
+    margin: auto;
+    margin-top: 15px;
+    background-color: #cad3d7;
+
+    &:hover {
+        background-color: #aab4ba;
+    }
+}
+
+.content {
+    flex-grow: 1;
+    padding: 0 15px;
+    font-size: 1.4rem;
+    width: 458px;
+    line-height: 2rem;
+}
+
+.option-btn {
+    width: 60px;
+    margin-right: 7px;
+    cursor: pointer;
+
+    & + .option-btn {
+        margin-right: 15px;
+    }
+
+    &:hover {
+        background-color: #04050556;
+        transition: background-color 1s linear;
+    }
+}
